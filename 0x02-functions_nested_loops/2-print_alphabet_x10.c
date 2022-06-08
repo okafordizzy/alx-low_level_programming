@@ -3,35 +3,26 @@
 /**
  * print_alphabet_x10 - print alphabet
  *
- * Return: Always 0.
+ * Return: x10 a-z
+ *
  */
-
 void print_alphabet_x10(void)
 {
-
-int alphabet;
-int count;
+	char alpha, co;
 
 
-count = 0;
-while (count < 10)
-{
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
-_putchar(alphabet);
-}
-
-count++;
-_putchar('n\');
-
-
-
-
-}
-
-
-
-
+	co = 0;
+	
+	while (co < 10)
+	{
+		for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+			{
+				_putchar(alphabet);
+			}
+		
+			co++;
+			_putchar('n\');
+	}
 
 
 }
